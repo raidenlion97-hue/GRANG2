@@ -358,21 +358,26 @@
       .features{grid-template-columns:1fr}
       .btn-row{grid-template-columns:1fr}
     }
-    @media (max-width: 640px){
-      .wrap{padding:10px}
-      .topbar{top:8px;padding:10px 12px;border-radius:18px}
-      .pill{display:none}
-      .brand-title b{font-size:18px}
-      .logo{width:46px;height:46px;border-radius:15px;font-size:19px}
-      .hero{border-radius:24px}
-      .hero-content{padding-top:20px}
-      .logo-ring{width:min(100%, 204px)}
-      .glass-panel{padding:14px;border-radius:22px}
-      .btn{min-height:54px;font-size:15px}
-      .lead{font-size:14px}
-      .eyebrow{font-size:11px;letter-spacing:.10em}
-      .sub{font-size:14px}
-    }
+    @media (max-width: 768px){
+
+  .logo-ring{
+    width:140px;
+    margin:10px auto;
+  }
+
+  .logo-ring span{
+    font-size:48px;
+  }
+
+  h1{
+    font-size:58px;
+  }
+
+  .hero-content{
+    padding-top:20px;
+  }
+
+}
     @media (prefers-reduced-motion: reduce){
       *,*::before,*::after{animation:none !important;transition:none !important;scroll-behavior:auto !important}
     }
